@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1615998281 source:c:\users\feder\documents\utn programacion 1 (2021)\laboratorio_1_c\clase 02\clase2ejercicioparcialingreso\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+

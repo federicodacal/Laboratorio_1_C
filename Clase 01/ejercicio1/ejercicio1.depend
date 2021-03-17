@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1615821678 source:c:\users\feder\documents\ejercicio1\programa1.c
+	<stdio.h>
+	<stdlib.h>
+
