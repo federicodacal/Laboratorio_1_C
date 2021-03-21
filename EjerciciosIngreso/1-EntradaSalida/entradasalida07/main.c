@@ -7,54 +7,48 @@
 
 int main()
 {
-    char operacion[20];
-    char suma[] = "suma";
-    char resta[] = "resta";
-    char division[] = "division";
-    char multiplicacion[] = "multiplicacion";
-    int respuestaSuma;
-    int respuestaResta;
-    int respuestaDivision;
-    int respuestaMultiplicacion;
-
     int num1;
     int num2;
-    int resultadoSuma;
-    int resultadoResta;
-    int resultadoDivision;
-    int resultadoMultiplicacion;
+    char operacion;
+    int suma;
+    int resta;
+    int multiplicacion;
+    float division;
 
-    printf("Que operacion desea realizar? (suma, resta, division o multiplicacion):\n");
-    scanf("%s", operacion);
     printf("Ingrese el primer numero: ");
     scanf("%d", &num1);
+
     printf("Ingrese el segundo numero: ");
     scanf("%d", &num2);
 
-    respuestaSuma=(strcmp(operacion, suma));
-    respuestaResta=(strcmp(operacion, resta));
-    respuestaDivision=(strcmp(operacion, division));
-    respuestaMultiplicacion=(strcmp(operacion, multiplicacion));
+    printf("Que operacion desea realizar? s=suma, r=resta, m=multiplicacion d=division ");
+    fflush(stdin);
+    scanf("%c", &operacion);
+    while(operacion!='s' && operacion!='r' && operacion!='m' && operacion!='d'){
+            printf("Error. Que operacion desea realizar? s=suma, r=resta, m=multiplicacion d=division ");
+            fflush(stdin);
+            scanf("%c", &operacion);
+    }
 
-    do{
-        if(respuestaSuma==0){
-            resultadoSuma=num1+num2;
-            printf("La suma es: %d", resultadoSuma);
-        }
-        else if(respuestaResta==0){
-            resultadoResta=num1-num2;
-            printf("La resta es: %d", resultadoResta);
-        }
-        else if(respuestaDivision==0){
-            resultadoDivision=num1/num2;
-            printf("La division es: %d", resultadoDivision);
-        }
-        else if(respuestaMultiplicacion==0){
-            resultadoMultiplicacion=num1*num2;
-            printf("La multiplicacion es: %d", resultadoMultiplicacion);
-        }
+    switch(operacion){
+        case 's':
+            suma=num1+num2;
+            printf("La suma es: %d", suma);
+            break;
+        case 'r':
+            resta=num1-num2;
+            printf("La resta es: %d", resta);
+            break;
+        case 'm':
+            multiplicacion=num1*num2;
+            printf("La multiplicacion es: %d", multiplicacion);
+            break;
+        case 'd':
+            division=(float) num1/num2;
+            printf("La division es: %.2f", division);
+            break;
 
-        prompt("�Desea continuar ingresando datos?");
-    }while()
-    return 0;
+    }
+
+
 }
