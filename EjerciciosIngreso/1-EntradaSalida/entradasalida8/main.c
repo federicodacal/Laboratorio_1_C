@@ -14,13 +14,13 @@ int main()
 
     printf("Ingrese el dividendo: ");
     scanf("%d", &dividendo);
-    while(dividendo==0){
-        printf("No es posible dividir al numero 0. Ingrese dividendo: ");
-        scanf("%d", &dividendo);
-    }
 
     printf("Ingrese el divisior: ");
     scanf("%d", &divisor);
+    while(divisor==0){
+        printf("No es posible dividir por 0. Ingrese divisor: ");
+        scanf("%d", &divisor);
+    }
 
     resto=dividendo%divisor;
     printf("El resto es %d", resto);
