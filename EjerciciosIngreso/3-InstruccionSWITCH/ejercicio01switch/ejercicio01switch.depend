@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616524216 source:c:\users\feder\documents\laboratorio_1_c\ejerciciosingreso\3-instruccionswitch\ejercicio01switch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
