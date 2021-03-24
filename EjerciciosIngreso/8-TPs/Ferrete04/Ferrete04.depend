@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616598813 source:c:\users\feder\documents\laboratorio_1_c\ejerciciosingreso\8-tps\ferrete04\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
