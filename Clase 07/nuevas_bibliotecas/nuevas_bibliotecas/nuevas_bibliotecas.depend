@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1618262417 source:c:\users\feder\documents\laboratorio_1_c\clase 07\nuevas_bibliotecas\nuevas_bibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"biblioteca7.h"
+
+1618262545 source:c:\users\feder\documents\laboratorio_1_c\clase 07\nuevas_bibliotecas\nuevas_bibliotecas\biblioteca7.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1618258105 c:\users\feder\documents\laboratorio_1_c\clase 07\nuevas_bibliotecas\nuevas_bibliotecas\biblioteca7.h
+

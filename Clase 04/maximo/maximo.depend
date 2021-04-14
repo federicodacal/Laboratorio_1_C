@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1617025998 source:c:\users\feder\documents\laboratorio_1_c\clase 04\maximo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"nueva_biblioteca.h"
+
+1617025952 c:\users\feder\documents\laboratorio_1_c\clase 04\maximo\nueva_biblioteca.h
+
+1617025993 source:c:\users\feder\documents\laboratorio_1_c\clase 04\maximo\nueva_biblioteca.c
+	"nueva_biblioteca.h"
+

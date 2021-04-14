@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618253651 source:c:\users\feder\documents\laboratorio_1_c\clase 07\ejemplo_burbujeo_b\burbujeo_b\main.c
+	<stdio.h>
+	<stdlib.h>
+
