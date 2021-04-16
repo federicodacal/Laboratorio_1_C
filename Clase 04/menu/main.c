@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 /** \brief Muestra el menu de opciones
  *
  * \return char Retorna la opcion seleccionada

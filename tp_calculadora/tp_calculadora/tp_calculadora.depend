@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1618610056 source:c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utndacal_operaciones.h"
+	"utndacal_interfaz.h"
+
+1618609476 source:c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal.c
+	<stdio.h>
+	<stdlib.h>
+
+1618609914 c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal.h
+
+1618611285 source:c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_operaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"utndacal_interfaz.h"
+	"utndacal_validaciones.h"
+
+1618610329 c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_operaciones.h
+
+1618610030 c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_interfaz.h
+
+1618610426 source:c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"utndacal_operaciones.h"
+	"utndacal_validaciones.h"
+
+1618610406 source:c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"utndacal_interfaz.h"
+	"utndacal_operaciones.h"
+
+1618610327 c:\users\feder\documents\laboratorio_1_c\tp_calculadora\tp_calculadora\utndacal_validaciones.h
+

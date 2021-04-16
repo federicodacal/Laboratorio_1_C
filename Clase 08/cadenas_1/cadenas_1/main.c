@@ -24,9 +24,9 @@ int main()
 
     printf("El nombre es %s y la edad es %d\n",nombre,edad);
 
-    printf("%s, &s", cadena1, cadena2);
+    printf("%s, %s\n", cadena1, cadena2);
     strcpy(cadena2,cadena1);
-    printf("%s, &s", cadena1, cadena2);
+    printf("%s, %s\n", cadena1, cadena2);
 
 
     return 0;
