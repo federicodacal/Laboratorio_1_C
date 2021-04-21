@@ -1,7 +1,7 @@
 /**
 Ingresar 10 numeros enteros, distintos de cero. Mostrar:
 a) Cantidad de pares e impares
-b) El menor numerro ingresado
+b) El menor numero ingresado
 c) Suma de los positivos
 d) Producto de los negativos
 **/
@@ -26,7 +26,7 @@ int main()
     flagPrimerNegativo=0;
 
 
-    for(int i=0;i<4;i++){
+    for(int i=0;i<10;i++){
 
         printf("Ingreso #%d\nIngrese un numero: ", i+1);
         scanf("%d", &numeroIngresado);

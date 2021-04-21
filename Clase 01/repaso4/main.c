@@ -147,6 +147,7 @@ int main()
         if(flagPrimerIngreso==0 || cantidadMaterias>legajoMasMaterias){
             legajoMasMaterias=legajo;
             edadMasMaterias=edad;
+            flagPrimerIngreso=1;
         }
 
         printf("Desea continuar ingresando alumnos? s/n\n");
