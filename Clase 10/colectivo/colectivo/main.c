@@ -1,3 +1,28 @@
+/*
+Empresa de colectivos
+Linea 1
+Linea 2
+Linea 3
+
+Cada Linea tiene 12 internos (colectivos)
+Cargar en sistema (hasta que el usuario quiera):
+Ingrese Linea
+Ingrese Interno
+Ingrese Recaudacion
+
+Plantear Matriz de 4 filas y 13 columnas
+
+int matriz[4][13]={0}; Inicializar matriz en 0
+Necesito ir acumulando las recuadaciones en cada posicion de la matriz
+
+Filas de 0 a 2 (para Linea 1,2,3)
+Fila 3 -> Al final del programa se debe mostrar todo lo acumulado en las columnas correspondientes
+Columnas 0 a 11 (para internos 1,2,3,4,5,6,7,8,9,10,11,12)
+Columna 12 -> Al final del programa se debe mostrar todo lo acumulado en las filas correspondientes
+
+matriz[3][12]   -> Debe mostrar la suma total de todas las recaudaciones
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define FILAS 4

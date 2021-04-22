@@ -41,9 +41,18 @@ int main()
     }
     printf("\n\n");
 
-    // Recorrer matriz
-    for(int i=0;i<FILAS;i++){
-        for(int j=0;j<COLUMNAS;j++){
+    // Recorrer matriz r
+    for(int i=0;i<FILAS;i++){   // 0,1,2
+        for(int j=0;j<COLUMNAS;j++){    // 0,1,2,3,4
+            printf("%d ", r[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    // Recorrer matriz p
+    for(int i=0;i<FILAS;i++){   // 0,1,2
+        for(int j=0;j<COLUMNAS;j++){    // 0,1,2,3,4
             printf("%d ", p[i][j]);
         }
         printf("\n");
@@ -60,7 +69,7 @@ int main()
         q[i][2]=8;
     }
 
-    // Recorrer matriz
+    // Recorrer matriz q
     for(int i=0;i<FILAS;i++){
         for(int j=0;j<COLUMNAS;j++){
             printf("%d ", q[i][j]);
@@ -70,7 +79,7 @@ int main()
     printf("\n");
 
     for(int i=0;i<FILAS;i++){
-        for(int j=0;i<COLUMNAS;i++){
+        for(int j=0;j<COLUMNAS;j++){
             printf("Ingrese un nro: ");
             scanf("%d", &k[i][j]);
         }
@@ -84,7 +93,7 @@ int main()
 
 void mostrarMatriz(int matrix[][5], int filas)
 {
-        for(int i=0;i<filas;i++){
+    for(int i=0;i<filas;i++){
         for(int j=0;j<5;j++){
             printf("%d ", matrix[i][j]);
         }
