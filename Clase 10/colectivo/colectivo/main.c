@@ -40,17 +40,17 @@ int main()
     char seguir;
 
     do{
-        printf("Ingrese linea: ");
+        printf("Ingrese linea: \n");
         scanf("%d", &linea);
 
-        printf("Ingrese interno: ");
+        printf("Ingrese interno: \n");
         scanf("%d", &interno);
-        printf("Ingrese recaudacion: ");
+        printf("Ingrese recaudacion: \n");
         scanf("%d", &recaudacion);
 
         mat[linea-1][interno-1]+=recaudacion;
 
-        printf("Quiere agregar otra recuadacion?: s/n");
+        printf("Quiere agregar otra recuadacion?: s/n \n");
         fflush(stdin);
         scanf("%c", &seguir);
     }while(seguir!='n');
@@ -61,27 +61,26 @@ int main()
 
 void mostrarRecaudaciones(int matrix[][13], int filas)
 {
-    printf("\t---***Recaudaciones***---\n");
-    printf("Internos\n");
-    printf("\t\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\tTotales");
+    printf("\n\t\t*********Recaudaciones*********\n");
+    printf("..........................................................................................................\n");
+    printf("Internos      1     2     3     4     5     6     7     8     9     10    11    12  Totales\n");
 
     for(int i=0;i<filas;i++){
         if(i!=filas-1){
-            printf("Linea %d", i+1);
+            printf("Linea %d   ",i+1);
         }
         else{
-            printf("Totales");
+            printf("Totales   ");
         }
         totalizarFila(matrix[i],13);
-        for(int j=0;j<13;j++){
-            printf("%4d ", matrix[i][j]);
-            if(i<filas){
+        for(int j=0;j<13;+j++){
+            printf(" %4d ",matrix[i][j]);
+            if(i<filas && j<12){
                 matrix[filas-1][j]+=matrix[i][j];
             }
         }
         printf("\n");
     }
-    printf("\n");
 }
 
 void totalizarFila(int vec[], int tam)
@@ -90,3 +89,5 @@ void totalizarFila(int vec[], int tam)
         vec[tam-1]+=vec[i];
     }
 }
+
+
