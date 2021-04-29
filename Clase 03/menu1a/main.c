@@ -69,4 +69,5 @@ int main()
 
     }while(salir!='s');
 
+    return 0;
 }
