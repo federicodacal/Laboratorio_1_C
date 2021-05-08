@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1620425010 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620424306 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.h
+	"sector.h"
+
+1620424280 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620325428 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\datawarehouse.h
+
+1620425039 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620425051 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.h
+
+1620425010 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620424306 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.h
+	"sector.h"
+
+1620508162 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.h
+
+1620503413 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\datawarehouse.h
+	"sector.h"
+
+1620508151 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620508280 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+	"informes.h"
+
+1620508309 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.h
+	"Empleado.h"
+

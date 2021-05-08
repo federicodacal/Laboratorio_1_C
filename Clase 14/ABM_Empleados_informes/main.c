@@ -8,16 +8,17 @@ ABM Empleados:
 6 Informes
 7 Salir
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "Empleado.h"
 #include "sector.h"
+#include "informes.h"
 #define NOMINA_LENGTH 10
 #define SECTOR_LENGTH 5
 
 int menu();
+int menuInformes();
 
 int main()
 {
@@ -32,7 +33,7 @@ int main()
     sEmpleado nomina[NOMINA_LENGTH];
     inicializarEmpleados(nomina, NOMINA_LENGTH);
 
-    hcodearEmpleados(nomina, NOMINA_LENGTH, 8, &nextLegajo);
+    hcodearEmpleados(nomina, NOMINA_LENGTH, 10, &nextLegajo);
 
     char salir='n';
 
@@ -76,7 +77,28 @@ int main()
             break;
         case 7:
             printf("\nInformes\n");
-            system("pause");
+            switch(menuInformes()){
+                case 1:
+                    listarEmpleadosSector(nomina, NOMINA_LENGTH, sectores, SECTOR_LENGTH);
+                    system("pause");
+                    break;
+                case 2:
+                    listarEmpleadosCadaSector(nomina, NOMINA_LENGTH, sectores, SECTOR_LENGTH);
+                    system("pause");
+                    break;
+                case 3:
+                    totalSueldoSector(nomina, NOMINA_LENGTH, sectores, SECTOR_LENGTH);
+                    system("pause");
+                    break;
+                case 4:
+                    totalADepositar(nomina, NOMINA_LENGTH, sectores, SECTOR_LENGTH);
+                    system("pause");
+                    break;
+                case 5:
+                    sectorMayorSueldo(nomina, NOMINA_LENGTH, sectores, SECTOR_LENGTH);
+                    system("pause");
+                    break;
+            }
             break;
         case 8:
             printf("Confirmar salida: s/n ");
@@ -90,7 +112,7 @@ int main()
     return 0;
 }
 
-int menu ()
+int menu()
 {
     int opcion;
 
@@ -104,6 +126,24 @@ int menu ()
     printf("6. Listar Sectores\n");
     printf("7. Informes\n");
     printf("8. Salir\n");
+    printf("\nIngrese opcion: \n");
+    scanf("%d", &opcion);
+
+    return opcion;
+}
+
+int menuInformes()
+{
+    int opcion;
+
+    system("cls");
+    printf("***INFORMES***\n\n");
+    printf("1. Filtrar Empleados por Sector\n");
+    printf("2. Mostrar Empleados de Cada Sector\n");
+    printf("3. Total Sueldos por Sector\n");
+    printf("4. Totales Sueldos\n");
+    printf("5. Sector de Mayor Sueldo Acumulado\n");
+    printf("8. Volver al Menu\n");
     printf("\nIngrese opcion: \n");
     scanf("%d", &opcion);
 
