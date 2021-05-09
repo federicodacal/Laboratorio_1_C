@@ -1,13 +1,8 @@
 #include "sector.h"
+#include "fecha.h"
 
 #ifndef EMPLEADO_H_INCLUDED
 #define EMPLEADO_H_INCLUDED
-
-typedef struct{
-    int dia;
-    int mes;
-    int anio;
-}sFecha;
 
 typedef struct{
     int legajo; // Primary Key

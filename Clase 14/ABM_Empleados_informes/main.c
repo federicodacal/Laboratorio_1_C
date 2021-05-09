@@ -14,8 +14,12 @@ ABM Empleados:
 #include "Empleado.h"
 #include "sector.h"
 #include "informes.h"
+#include "comida.h"
+#include "almuerzo.h"
 #define NOMINA_LENGTH 10
 #define SECTOR_LENGTH 5
+#define COMIDA_LENGTH 5
+#define ALMUERZO_LENGTH 30
 
 int menu();
 int menuInformes();
@@ -23,6 +27,7 @@ int menuInformes();
 int main()
 {
     int nextLegajo=20000;
+    int nextIdAlmuerzo=50000;
     sSector sectores[SECTOR_LENGTH]={
         {500, "Sistemas"},
         {501, "Legales"},
@@ -30,6 +35,17 @@ int main()
         {503, "Contable"},
         {504, "Ventas"}
     };
+
+        sComida comidas[COMIDA_LENGTH]={
+        {1000, "Milanesa",150},
+        {1001, "Ensalada",180},
+        {1002, "Fideos",140},
+        {1003, "Pizza",200},
+        {1004, "Sopa",110}
+    };
+
+    sAlmuerzo almuerzos[ALMUERZO_LENGTH];
+
     sEmpleado nomina[NOMINA_LENGTH];
     inicializarEmpleados(nomina, NOMINA_LENGTH);
 
