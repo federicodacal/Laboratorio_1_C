@@ -32,7 +32,7 @@ int main()
     sEmpleado nomina[NOMINA_LENGTH];
     inicializarEmpleados(nomina, NOMINA_LENGTH);
 
-    hcodearEmpleados(nomina, NOMINA_LENGTH, 8, &nextLegajo);
+    hcodearEmpleados(nomina, NOMINA_LENGTH, 10, &nextLegajo);
 
     char salir='n';
 
@@ -66,7 +66,8 @@ int main()
             system("pause");
             break;
         case 5:
-            printf("\nOrdenar Empleados\n");
+            printf("\nLa lista de empleados ha sido ordenada por nro. de legajo.\n");
+            ordenarEmpleados(nomina, NOMINA_LENGTH);
             system("pause");
             break;
         case 6:

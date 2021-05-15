@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\feder\documents\laboratorio_1_c\clase 15\calcular_mayor\calcular_mayor\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1620859404 source:c:\users\feder\documents\laboratorio_1_c\clase 15\calcular_mayor\calcular_mayor\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

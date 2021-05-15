@@ -63,29 +63,6 @@ void inicializarEmpleados(sEmpleado lista[], int nominaLength)
     }
 }
 
-int hcodearEmpleados(sEmpleado lista[], int nominaLength, int cant, int* pLegajo)
-{
-    int cantidad=0;
-
-    if(lista!=NULL && nominaLength>0 && cant>=0 && cant <=nominaLength && pLegajo!=NULL){
-        for(int i=0;i<cant;i++){
-            lista[i].legajo=*pLegajo;
-            (*pLegajo)++;
-            // *pLegajo=*pLegajo+1;
-            strcpy(lista[i].nombre, nombres[i]);
-            lista[i].edad=edades[i];
-            lista[i].sexo=sexos[i];
-            lista[i].sueldo=sueldos[i];
-            lista[i].fIngreso=fechas[i];
-            lista[i].idSector=idSectores[i];
-            lista[i].isEmpty=0;
-            cantidad++;
-        }
-    }
-
-    return cantidad;
-}
-
 int altaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLenght, int* pLegajo)
 {
     int function_success=0;
@@ -127,6 +104,11 @@ int altaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int se
             printf("Ingrese el ID del sector: \n");
             // VALIDAR ID SECTOR (SI EL ID ES VALIDO O NO)
             scanf("%d",&idSector);
+            while(idSector>504 || idSector<500){
+                printf("ID ingresado no valido. Ingrese el ID del sector: \n");
+                // VALIDAR ID SECTOR (SI EL ID ES VALIDO O NO)
+                scanf("%d",&idSector);
+            }
 
             nuevoEmpleado.idSector=idSector;
             nuevoEmpleado.legajo=*pLegajo;
@@ -193,6 +175,21 @@ int bajaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int se
        else{
         printf("Baja cancelada\n");
        }
+    }
+    return function_success;
+}
+
+int cargarNombreEmpleado(int legajo, sEmpleado lista[], int nominaLength, char nombre[])
+{
+    int function_success=0;
+    int indice;
+
+    if(lista!=NULL && nominaLength>0 && nombre!=NULL){
+        indice=buscarEmpleado(lista, nominaLength,legajo);
+        if(indice!=-1){
+            strcpy(nombre,lista[indice].nombre);
+            function_success=1;
+        }
     }
     return function_success;
 }

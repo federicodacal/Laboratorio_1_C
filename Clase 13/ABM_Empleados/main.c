@@ -66,7 +66,8 @@ int main()
             system("pause");
             break;
         case 5:
-            printf("\nOrdenar Empleados\n");
+            printf("\nLa lista de empleados ha sido ordenada por nro. de legajo.\n");
+            ordenarEmpleados(nomina, NOMINA_LENGTH);
             system("pause");
             break;
         case 6:

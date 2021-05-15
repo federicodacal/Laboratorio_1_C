@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1620948005 source:c:\users\feder\documents\laboratorio_1_c\clase 11\estructuras3\estructuras3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1620948023 c:\users\feder\documents\laboratorio_1_c\clase 11\estructuras3\estructuras3\alumno.h
+
+1620947943 source:c:\users\feder\documents\laboratorio_1_c\clase 11\estructuras3\estructuras3\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+

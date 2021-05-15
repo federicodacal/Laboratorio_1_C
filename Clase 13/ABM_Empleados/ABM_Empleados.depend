@@ -27,3 +27,31 @@
 
 1620425051 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.h
 
+1620425039 source:c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620424306 c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\empleado.h
+	"sector.h"
+
+1620425051 c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\sector.h
+
+1620771692 source:c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620771766 source:c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620325428 c:\users\feder\documents\laboratorio_1_c\clase 13\abm_empleados\datawarehouse.h
+

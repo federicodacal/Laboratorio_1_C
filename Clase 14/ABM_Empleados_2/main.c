@@ -23,6 +23,8 @@ ABM Empleados:
 
 int menu();
 int menuInformes();
+//int menuModificaciones();
+//int menuOrdenar();
 
 int main()
 {
@@ -49,7 +51,7 @@ int main()
     sEmpleado nomina[NOMINA_LENGTH];
     inicializarEmpleados(nomina, NOMINA_LENGTH);
 
-    hcodearEmpleados(nomina, NOMINA_LENGTH, 10, &nextLegajo);
+//    hcodearEmpleados(nomina, NOMINA_LENGTH, 2, &nextLegajo);
 
     char salir='n';
 
@@ -165,3 +167,13 @@ int menuInformes()
 
     return opcion;
 }
+
+//int menuModificaciones()
+//{
+//
+//}
+//
+//int menuOrdenar()
+//{
+//
+//}

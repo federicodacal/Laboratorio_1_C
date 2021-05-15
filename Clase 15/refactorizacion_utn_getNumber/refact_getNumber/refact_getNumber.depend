@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1620858422 source:c:\users\feder\documents\laboratorio_1_c\clase 15\refactorizacion_utn_getnumber\refact_getnumber\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"validacion.h"
+
+1620859121 c:\users\feder\documents\laboratorio_1_c\clase 15\refactorizacion_utn_getnumber\refact_getnumber\validacion.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1620857203 source:c:\users\feder\documents\laboratorio_1_c\clase 15\refactorizacion_utn_getnumber\refact_getnumber\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

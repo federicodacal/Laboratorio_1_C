@@ -27,7 +27,7 @@
 
 1620425051 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.h
 
-1620425010 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.c
+1620821824 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.c
 	<stdio.h>
 	<stdlib.h>
 	<strings.h>
@@ -38,9 +38,9 @@
 	"sector.h"
 	"fecha.h"
 
-1620508162 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.h
+1620823707 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.h
 
-1620503413 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\datawarehouse.h
+1620831136 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\datawarehouse.h
 	"sector.h"
 
 1620508151 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.c
@@ -50,18 +50,20 @@
 	"Empleado.h"
 	"sector.h"
 
-1620508280 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\main.c
+1620831141 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Empleado.h"
 	"sector.h"
 	"informes.h"
+	"comida.h"
+	"almuerzo.h"
 
 1620508309 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.h
 	"Empleado.h"
 
-1620508366 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.c
+1620831166 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -72,4 +74,8 @@
 1620562014 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\comida.c
 
 1620562279 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\fecha.h
+
+1620562130 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\comida.h
+
+1620563554 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\almuerzo.h
 

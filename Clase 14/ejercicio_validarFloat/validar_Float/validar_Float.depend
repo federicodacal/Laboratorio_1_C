@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1620922542 source:c:\users\feder\documents\laboratorio_1_c\clase 14\ejercicio_validarfloat\validar_float\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

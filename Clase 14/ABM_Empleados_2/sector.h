@@ -11,5 +11,4 @@ void mostrarSectores(sSector sectores[], int sectorLength);
 void mostrarSector(sSector sector);
 int buscarSector(int id, sSector sectores[], int sectorLength);
 
-
 #endif // SECTOR_H_INCLUDED

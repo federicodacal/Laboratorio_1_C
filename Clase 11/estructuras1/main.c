@@ -57,7 +57,7 @@ int main()
 
     mostrarEmpleado(emp1);
 
-    printf("%d \n\n",sizeof(sEmpleado));
+    printf("\n%d \n\n",sizeof(sEmpleado));
 
     printf("Ingrese legajo: ");
     scanf("%d", &emp2.legajo);

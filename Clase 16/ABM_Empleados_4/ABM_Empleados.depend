@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1620425010 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620424306 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.h
+	"sector.h"
+
+1620424280 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620325428 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\datawarehouse.h
+
+1620425039 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620425051 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\sector.h
+
+1620821824 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620562300 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\empleado.h
+	"sector.h"
+	"fecha.h"
+
+1620823707 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.h
+
+1620831136 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\datawarehouse.h
+	"sector.h"
+
+1620508151 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620831141 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+	"informes.h"
+	"comida.h"
+	"almuerzo.h"
+
+1620508309 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.h
+	"Empleado.h"
+
+1620831166 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1620562051 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\almuerzo.c
+
+1620562014 source:c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\comida.c
+
+1620562279 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\fecha.h
+
+1620562130 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\comida.h
+
+1620563554 c:\users\feder\documents\laboratorio_1_c\clase 14\abm_empleados_informes\almuerzo.h
+
+1620842237 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"almuerzo.h"
+	"comida.h"
+	"Empleado.h"
+	"fecha.h"
+
+1620842406 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1620842820 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1620842839 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\empleado.h
+	"sector.h"
+	"fecha.h"
+
+1620823707 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\sector.h
+
+1620562279 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\fecha.h
+
+1620843380 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\datawarehouse.h
+	"sector.h"
+	"fecha.h"
+	"Empleado.h"
+	"almuerzo.h"
+
+1620849185 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1620848602 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\informes.h
+	"Empleado.h"
+	"almuerzo.h"
+
+1620508151 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1620848975 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+	"informes.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1620840817 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\comida.h
+
+1620841615 c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\almuerzo.h
+	"fecha.h"
+	"comida.h"
+	"Empleado.h"
+
+1620844207 source:c:\users\feder\documents\laboratorio_1_c\clase 15\abm_empleados_3\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1620842237 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"almuerzo.h"
+	"comida.h"
+	"Empleado.h"
+	"fecha.h"
+
+1620841615 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\almuerzo.h
+	"fecha.h"
+	"comida.h"
+	"Empleado.h"
+
+1621038705 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\fecha.h
+
+1621032973 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\comida.h
+
+1620842839 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\empleado.h
+	"sector.h"
+	"fecha.h"
+
+1620823707 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\sector.h
+
+1621034489 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1620844207 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1621025382 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\datawarehouse.h
+	"fecha.h"
+	"Empleado.h"
+	"almuerzo.h"
+
+1620842820 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"Empleado.h"
+	"datawarehouse.h"
+
+1621037085 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1621040281 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.h
+	"Empleado.h"
+	"almuerzo.h"
+
+1621040368 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+	"informes.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1620508151 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"sector.h"
+
+1621038921 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+

@@ -3,6 +3,8 @@
 #include <string.h>
 #include "informes.h"
 
+
+
 void listarEmpleadosSector(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength)
 {
     int idSector;
@@ -33,7 +35,7 @@ void listarEmpleadosSector(sEmpleado lista[], int nominaLength, sSector sectores
         }
     }
     if(flag==0){
-        printf("No hay empleados en el sector de %s", sectores[indice].descripcion);
+        printf("No hay empleados en el sector de %s\n", sectores[indice].descripcion);
     }
 }
 
@@ -90,7 +92,7 @@ void totalSueldoSector(sEmpleado lista[], int nominaLength, sSector sectores[], 
 
     printf("Total Sueldos: $%.2f\n", totalSueldos);
     if(flag==0){
-        printf("No hay empleados en el sector de %s", sectores[indice].descripcion);
+        printf("No hay empleados en el sector de %s\n", sectores[indice].descripcion);
     }
 }
 
@@ -114,7 +116,7 @@ void totalADepositar(sEmpleado lista[], int nominaLength, sSector sectores[], in
 
     }
     printf("\n");
-    printf("Total a Depositar: $ %.2f\n", acumuladorSueldosTotal);
+    printf("Total a Depositar: $ %.2f\n\n", acumuladorSueldosTotal);
 }
 
 void sectorMayorSueldo(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength)
@@ -143,7 +145,8 @@ void sectorMayorSueldo(sEmpleado lista[], int nominaLength, sSector sectores[], 
     }
     for(int i=0;i<sectorLength;i++){
         if(mayorSueldo==sueldosTotales[i]){
-            printf("%s\n\n", sectores[i].descripcion);
+            printf("%s: $ %.2f\n", sectores[i].descripcion, mayorSueldo);
         }
     }
+    printf("\n");
 }

@@ -12,6 +12,7 @@ int calcularPromedioRef(int a, int b, float* pPromedio);
 void mostrarNotas(int n1[], int n2[], int legajos[], float proms[], int notasLength);
 //void ordenarPromedios(float vector[], int notas1[], int notas2[], int notasLength, int criterio);
 void ordenarAlumnos(int lega[], char names[][20], char sexs[], int n1[], int n2[], float proms[], int tam);
+void ordenarAlumnos2(int lega[], char names[][20], char sexs[], int n1[], int n2[], float proms[], int tam);
 void mostrarAlumnos(int lega[], char names[][20], char sexs[], int n1[], int n2[], float proms[], int tam);
 void mostrarAlumno(int legajo, char nombre[], char sexo, int nota1, int nota2, float promedio);
 
@@ -31,6 +32,8 @@ int main()
 
     mostrarAlumnos(legajos, nombres, sexos, notas1, notas2, promedios, ALUMNOS_LENGTH);
     ordenarAlumnos(legajos, nombres, sexos,  notas1,  notas2,  promedios,  ALUMNOS_LENGTH);
+    mostrarAlumnos(legajos, nombres, sexos, notas1, notas2, promedios, ALUMNOS_LENGTH);
+    ordenarAlumnos2(legajos, nombres, sexos,  notas1,  notas2,  promedios,  ALUMNOS_LENGTH);
     mostrarAlumnos(legajos, nombres, sexos, notas1, notas2, promedios, ALUMNOS_LENGTH);
 
 
@@ -113,6 +116,46 @@ void ordenarAlumnos(int lega[], char names[][20], char sexs[], int n1[], int n2[
     for(int i=0;i<tam;i++){
         for(int j=i+1;j<tam;j++){
             if(sexs[i]<sexs[j] || (sexs[i]==sexs[j]&&strcmpi(names[i],names[j])>0)){
+
+                auxFloat=proms[i];
+                proms[i]=proms[j];
+                proms[j]=auxFloat;
+
+                auxInt=n1[i];
+                n1[i]=n1[j];
+                n1[j]=auxInt;
+
+                auxInt=n2[i];
+                n2[i]=n2[j];
+                n2[j]=auxInt;
+
+                auxInt=lega[i];
+                lega[i]=lega[j];
+                lega[j]=auxInt;
+
+                auxChar=sexs[i];
+                sexs[i]=sexs[j];
+                sexs[j]=auxChar;
+
+                strcpy(auxStr,names[i]);
+                strcpy(names[i],names[j]);
+                strcpy(names[j],auxStr);
+
+            }
+        }
+    }
+}
+
+void ordenarAlumnos2(int lega[], char names[][20], char sexs[], int n1[], int n2[], float proms[], int tam)
+{
+    float auxFloat;
+    int auxInt;
+    char auxChar;
+    char auxStr[20];
+
+    for(int i=0;i<tam;i++){
+        for(int j=i+1;j<tam;j++){
+            if(sexs[i]>sexs[j] || (sexs[i]==sexs[j]&&lega[i]>lega[j])){
 
                 auxFloat=proms[i];
                 proms[i]=proms[j];

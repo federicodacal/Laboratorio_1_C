@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1620425010 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.c
+1620770069 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.c
 	<stdio.h>
 	<stdlib.h>
 	<strings.h>
@@ -9,7 +9,7 @@
 1620424306 c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\empleado.h
 	"sector.h"
 
-1620424280 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\main.c
+1620769876 source:c:\users\feder\documents\laboratorio_1_c\clase 12\abm_empleados\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

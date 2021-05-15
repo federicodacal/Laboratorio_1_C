@@ -46,7 +46,7 @@ void ordenarEmpleados(sEmpleado lista[], int nominaLength)
     sEmpleado auxEmpleado;
     for(int i=0; i<nominaLength-1;i++){
         for(int j=i+1;j<nominaLength;j++){
-            if(lista[i].sexo>lista[j].sexo || (lista[i].sexo==lista[j].sexo && strcmpi(lista[i].nombre,lista[j].nombre)>0)){
+            if(lista[i].legajo>lista[j].legajo){
 
                 auxEmpleado=lista[i];
                 lista[i]=lista[j];
@@ -127,6 +127,11 @@ int altaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int se
             printf("Ingrese el ID del sector: \n");
             // VALIDAR ID SECTOR (SI EL ID ES VALIDO O NO)
             scanf("%d",&idSector);
+            while(idSector>504 || idSector<500){
+                printf("El ID ingresado no es valido. Ingrese el ID del sector: \n");
+                // VALIDAR ID SECTOR (SI EL ID ES VALIDO O NO)
+                scanf("%d",&idSector);
+            }
 
             nuevoEmpleado.idSector=idSector;
             nuevoEmpleado.legajo=*pLegajo;
