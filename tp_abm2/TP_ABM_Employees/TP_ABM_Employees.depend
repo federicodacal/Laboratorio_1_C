@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1621016293 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\utn_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_validaciones.h"
+
+1621120076 c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\utn_validaciones.h
+
+1621127820 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"datawarehouse.h"
+	"sector.h"
+	"utn_validaciones.h"
+
+1621128112 c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\arrayemployees.h
+	"sector.h"
+
+1621112043 c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\sector.h
+
+1621128134 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"utn_validaciones.h"
+	"sector.h"
+	"datawarehouse.h"
+	"interfaz.h"
+
+1621125080 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"sector.h"
+
+1621119869 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1621105256 c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\datawarehouse.h
+	"ArrayEmployees.h"
+
+1621128128 source:c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"utn_validaciones.h"
+	"interfaz.h"
+
+1621128128 c:\users\feder\documents\laboratorio_1_c\tp_abm2\tp_abm_employees\interfaz.h
+	<stdio.h>
+	<stdlib.h>
+	"utn_validaciones.h"
+

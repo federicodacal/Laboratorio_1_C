@@ -7,5 +7,4 @@ int utn_getNumeroFlotante(float* pResultado, char* mensaje, char* mensajeError, 
 int utn_getNombre(char* pResultado, int longitud,char* mensaje, char* mensajeError, int reintentos);
 int utn_getDescripcion(char* pResultado, int longitud,char* mensaje, char* mensajeError, int reintentos);
 
-
 #endif // UTN_VALIDACIONES_H_INCLUDED

@@ -17,6 +17,10 @@ typedef struct{
 
 void mostrarEmpleado(sEmpleado unEmpleado, sSector sectores[], int sectorLength);
 void mostrarEmpleados(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength);
+void inicializarEmpleados(sEmpleado lista[], int nominaLength);
+int altaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLenght, int* pLegajo);
+
+
 void ordenarEmpleados(sEmpleado lista[], int nominaLength);
 int altaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLenght, int* pLegajo);
 int bajaEmpleado(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength);

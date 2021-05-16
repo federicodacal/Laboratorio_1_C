@@ -41,8 +41,8 @@ int main()
     sEmpleado nomina[NOMINA_LENGTH];
     inicializarEmpleados(nomina, NOMINA_LENGTH);
     inicializarAlmuerzos(almuerzos, ALMUERZO_LENGTH);
-    hcodearEmpleados(nomina, NOMINA_LENGTH, 10, &nextLegajo);
-    hcodearAlmuerzos(almuerzos, ALMUERZO_LENGTH, 21, &nextIdAlmuerzo);
+//    hcodearEmpleados(nomina, NOMINA_LENGTH, 10, &nextLegajo);
+//    hcodearAlmuerzos(almuerzos, ALMUERZO_LENGTH, 21, &nextIdAlmuerzo);
 
     char salir='n';
 
