@@ -1,0 +1,143 @@
+# depslib dependency file v1.0
+1621349019 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Alquileres.h"
+
+1621378978 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\alquileres.h
+	"fecha.h"
+
+1621387745 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Cliente.h"
+	"utn_validaciones.h"
+
+1621386263 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\cliente.h
+
+1621038921 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1621038705 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\fecha.h
+
+1621348921 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\juego.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Juego.h"
+
+1621347593 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\juego.h
+
+1621388639 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\utn_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_validaciones.h"
+
+1621387706 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\utn_validaciones.h
+
+1621349301 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\categoria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Categoria.h"
+
+1621349309 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\categoria.h
+
+1621383715 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Juego.h"
+	"Categoria.h"
+	"Cliente.h"
+	"Alquileres.h"
+	"fecha.h"
+	"utn_validaciones.h"
+	"datawarehouse.h"
+
+1621377251 c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\datawarehouse.h
+	"Cliente.h"
+
+1621387513 source:c:\users\feder\documents\laboratorio_1_c\tp_abm3\abm_juegos\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1621349019 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Alquileres.h"
+
+1621378978 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\alquileres.h
+	"fecha.h"
+
+1621038705 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\fecha.h
+
+1621349301 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\categoria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Categoria.h"
+
+1621349309 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\categoria.h
+
+1621387513 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1621377251 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\datawarehouse.h
+	"Cliente.h"
+
+1621386263 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\cliente.h
+
+1621038921 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fecha.h"
+
+1621348921 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\juego.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Juego.h"
+
+1621347593 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\juego.h
+
+1621383715 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Juego.h"
+	"Categoria.h"
+	"Cliente.h"
+	"Alquileres.h"
+	"fecha.h"
+	"utn_validaciones.h"
+	"datawarehouse.h"
+
+1621387706 c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\utn_validaciones.h
+
+1621388639 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\utn_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_validaciones.h"
+
+1621423725 source:c:\users\feder\documents\dacal.federico.pplab1\dacal.federico.pplab1\abm_parcial\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Cliente.h"
+	"utn_validaciones.h"
+

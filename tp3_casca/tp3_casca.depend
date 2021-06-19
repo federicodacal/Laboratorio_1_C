@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1565993298 source:c:\users\feder\documents\laboratorio_1_c\tp3_casca\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1565993298 c:\users\feder\documents\laboratorio_1_c\tp3_casca\linkedlist.h
+
+1565993298 c:\users\feder\documents\laboratorio_1_c\tp3_casca\employee.h
+
+1565993298 source:c:\users\feder\documents\laboratorio_1_c\tp3_casca\employee.c
+
+1623852178 source:c:\users\feder\documents\laboratorio_1_c\tp3_casca\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1565993298 c:\users\feder\documents\laboratorio_1_c\tp3_casca\controller.h
+
+1565993298 source:c:\users\feder\documents\laboratorio_1_c\tp3_casca\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+

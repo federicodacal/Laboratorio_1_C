@@ -1,8 +1,8 @@
-#include "sector.h"
-#include "fecha.h"
-
 #ifndef EMPLEADO_H_INCLUDED
 #define EMPLEADO_H_INCLUDED
+
+#include "sector.h"
+#include "fecha.h"
 
 typedef struct{
     int legajo; // Primary Key

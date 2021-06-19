@@ -1,9 +1,9 @@
+#ifndef ALMUERZO_H_INCLUDED
+#define ALMUERZO_H_INCLUDED
+
 #include "fecha.h"
 #include "comida.h"
 #include "Empleado.h"
-
-#ifndef ALMUERZO_H_INCLUDED
-#define ALMUERZO_H_INCLUDED
 
 typedef struct{
     int id;

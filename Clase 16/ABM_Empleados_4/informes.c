@@ -3,8 +3,6 @@
 #include <string.h>
 #include "informes.h"
 
-
-
 void listarEmpleadosSector(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength)
 {
     int idSector;

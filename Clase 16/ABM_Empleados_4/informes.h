@@ -1,8 +1,8 @@
-#include "Empleado.h"
-#include "almuerzo.h"
-
 #ifndef INFORMES_H_INCLUDED
 #define INFORMES_H_INCLUDED
+
+#include "Empleado.h"
+#include "almuerzo.h"
 
 void listarEmpleadosSector(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength);
 void listarEmpleadosCadaSector(sEmpleado lista[], int nominaLength, sSector sectores[], int sectorLength);

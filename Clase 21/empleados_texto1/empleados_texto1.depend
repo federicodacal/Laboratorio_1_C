@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1623851455 source:c:\users\feder\documents\laboratorio_1_c\clase 21\empleados_texto1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

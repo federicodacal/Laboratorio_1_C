@@ -165,7 +165,7 @@
 	"Empleado.h"
 	"fecha.h"
 
-1620841615 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\almuerzo.h
+1622149509 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\almuerzo.h
 	"fecha.h"
 	"comida.h"
 	"Empleado.h"
@@ -174,7 +174,7 @@
 
 1621032973 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\comida.h
 
-1620842839 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\empleado.h
+1622149521 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\empleado.h
 	"sector.h"
 	"fecha.h"
 
@@ -204,13 +204,13 @@
 	"Empleado.h"
 	"datawarehouse.h"
 
-1621037085 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.c
+1622149479 source:c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"informes.h"
 
-1621040281 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.h
+1622149489 c:\users\feder\documents\laboratorio_1_c\clase 16\abm_empleados_4\informes.h
 	"Empleado.h"
 	"almuerzo.h"
 

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1624059363 source:c:\users\feder\documents\laboratorio_1_c\clase 21\alumnos_2\alumno.c
+	<ctype.h>
+	"alumno.h"
+	"utn_validaciones.h"
+
+1624059408 c:\users\feder\documents\laboratorio_1_c\clase 21\alumnos_2\alumno.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1623886383 source:c:\users\feder\documents\laboratorio_1_c\clase 21\alumnos_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+	"utn_validaciones.h"
+
+1624054571 source:c:\users\feder\documents\laboratorio_1_c\clase 21\alumnos_2\utn_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn_validaciones.h"
+
+1624054564 c:\users\feder\documents\laboratorio_1_c\clase 21\alumnos_2\utn_validaciones.h
+
