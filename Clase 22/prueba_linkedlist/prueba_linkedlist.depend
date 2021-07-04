@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1625436101 source:c:\users\feder\documents\laboratorio_1_c\clase 22\prueba_linkedlist\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625054572 c:\users\feder\documents\laboratorio_1_c\clase 22\prueba_linkedlist\linkedlist.h
+

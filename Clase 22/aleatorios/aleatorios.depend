@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1625438732 source:c:\users\feder\documents\laboratorio_1_c\clase 22\aleatorios\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

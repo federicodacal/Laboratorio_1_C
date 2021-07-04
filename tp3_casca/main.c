@@ -20,9 +20,10 @@
 
 int main()
 {
-    int option = 0;
+    int option=0;
 
     LinkedList* listaEmpleados = ll_newLinkedList();
+    printf("Funciona!!");
     do{
         switch(option)
         {

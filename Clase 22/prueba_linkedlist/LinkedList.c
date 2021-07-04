@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../inc/LinkedList.h"
-
+#include "LinkedList.h"
 
 static Node* getNode(LinkedList* this, int nodeIndex);
 static int addNode(LinkedList* this, int nodeIndex,void* pElement);
@@ -472,6 +471,13 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 }
 
+/** \brief Devuelve un nuevo LinkedList cargado con los elementos que pasan la funcion filtro
+ *
+ * \param LinkedList* this LinkedList a filtrar
+ * \param int (*pFunc) (void*) Puntero a funcion filtro
+ * \return nuevo puntero a LinkedList
+ *
+ */
 LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*))
 {
     LinkedList* filterList=NULL;
@@ -482,7 +488,7 @@ LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*))
         filterList=ll_newLinkedList();
         len=ll_len(this);
         if(filterList!=NULL && len>=0){
-            for (int i=0;i<len;i++){
+            for (int i=0;i<len;i++){ // Recorrer la lista
                 aux=ll_get(this,i);
                 if(pFunc(aux)){
                     if(ll_add(filterList,aux)){

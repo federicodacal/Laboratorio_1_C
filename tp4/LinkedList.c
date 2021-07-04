@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../inc/LinkedList.h"
+#include "LinkedList.h"
 
 
 static Node* getNode(LinkedList* this, int nodeIndex);
@@ -92,7 +92,7 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement)
     //Node* auxNode=NULL;
 
     if(this!=NULL && nodeIndex>=0 && nodeIndex<=ll_len(this)){
-        node=(Node*)malloc(sizeof(Node)); // crear nodo
+        node=(Node*)malloc(sizeof(Node));
         if(node!=NULL){
             node->pElement=pElement;
             node->pNextNode=getNode(this,nodeIndex);
@@ -244,8 +244,8 @@ int ll_clear(LinkedList* this)
         }
         if(flag){
             returnAux=0;
+            }
         }
-    }
     return returnAux;
 }
 
@@ -464,12 +464,16 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
                 if((pFunc(auxI,auxJ)>0 && order) || (pFunc(auxI,auxJ)<0 && !order)){
                     ll_set(this,i,auxJ);
                     ll_set(this,j,auxI);
+
+
+
                 }
             }
         }
-        returnAux=0;
     }
+
     return returnAux;
+
 }
 
 LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*))
