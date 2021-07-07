@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1625625212 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625625911 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\linkedlist.h
+
+1625623930 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+
+1625624232 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\controller.h
+
+1625619645 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"utn_validaciones.h"
+
+1625346508 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\menu.h
+
+1625329875 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\utn_validaciones.h
+
+1625335681 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\utn_validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn_validaciones.h"
+
+1625623938 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"utn_validaciones.h"
+	"parser.h"
+	"Pais.h"
+
+1625620941 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\parser.h
+
+1625625536 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\pais.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pais.h"
+	"LinkedList.h"
+	"utn_validaciones.h"
+
+1625625592 c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\pais.h
+	"LinkedList.h"
+
+1625623192 source:c:\users\feder\documents\laboratorio_1_c\clase 22\nuevo_ejercicio\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"parser.h"
+	"Pais.h"
+
